@@ -1,0 +1,37 @@
+body{
+  background: #FFF0F5
+}
+.gallery{ text-align: center;
+}
+
+
+.image{
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 22%;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  margin-top:30px;
+}
+h2{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  margin-bottom:10px;
+}
+
+@media screen and (max-width: 800px){
+  .image{
+    width:45%;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  .image{
+    width:90%;
+  }
+
+}
