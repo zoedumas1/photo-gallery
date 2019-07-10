@@ -1,25 +1,33 @@
 body{
-  background: #FFF0F5
+  background-color: #FFF0F5;
 }
-.gallery{ text-align: center;
+
+.gallery{ text-align: justify;
 }
 
 
 .image{
   flex-direction: row;
   flex-wrap: wrap;
-  width: 22%;
+  width:17%;
+  height:20%;
+  object-fit: scale-down;
 }
 
 h1{
+  color: black;
   text-align: center;
+  font-size: 60px;
   font-family: 'Cinzel', serif;
-  margin-top:30px;
+  font-stretch: expanded;
 }
+
 h2{
+  color: black;
   text-align: center;
+  font-size: 30px;
   font-family: 'Cinzel', serif;
-  margin-bottom:10px;
+
 }
 
 @media screen and (max-width: 800px){
@@ -32,6 +40,3 @@ h2{
 @media screen and (max-width: 600px){
   .image{
     width:90%;
-  }
-
-}
